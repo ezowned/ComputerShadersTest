@@ -1,0 +1,11 @@
+Base path: C:/Program Files/Unity/Editor/Data
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  error: 1 plat 4 at NewComputeShader.compute(43): loop only executes for 1 iteration(s), forcing loop to unroll
+  api=4 insize=948 outsize=353 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=948 outsize=453 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=948 outsize=353 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=948 outsize=645 ok=1
