@@ -49,7 +49,7 @@ void F1(uint3 id : SV_DispatchThreadID, uint gid : SV_GroupThreadID)
 ```
 
 
-В случае с регистрами просто объявляем регистр, в котором и будем накапливать сумму:
+В случае с регистрами просто объявляем переменную, в которой и будем накапливать сумму:
 ```c
 [numthreads(64, 1, 1)]
 void F2(uint3 id : SV_DispatchThreadID, uint gid : SV_GroupThreadID)
